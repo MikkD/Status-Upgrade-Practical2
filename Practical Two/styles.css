@@ -34,8 +34,9 @@ main{
     max-width:400px;
     height: 50%;
     min-height: 300px;
+    max-height: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 35px;
 }
 .form-header{
     display: flex;
@@ -83,6 +84,15 @@ main{
 .form-body button:hover{
     cursor: pointer;
     background:#4d89d8;
+}
+
+.form-body-inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-body-inputs-wrapper input{
+    margin-bottom: 15px;
 }
 
 /* active - holding down left mouse click or space  */
